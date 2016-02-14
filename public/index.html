@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>闹闹呱呱</title>
+
+    <script src="./js/jquery-2.2.0.min.js"></script>
+    <script src="./js/echarts.common.min.js"></script>
+    <script src="./js/cbpFWTabs.js"></script>
+    <script src="./js/addContent.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="clearfix">
+            <span>闹闹呱呱工作室 <span class="bp-icon bp-icon-about" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+            <h1>闹闹呱呱帮你攒钱</h1>
+            <nav>
+                <a href="http://tympanus.net/Blueprints/SplitLayout/" class="bp-icon bp-icon-prev" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
+                <a href="http://tympanus.net/Blueprints/GridGallery/" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a>
+                <a href="http://tympanus.net/codrops/?p=18521" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
+                <a href="http://tympanus.net/codrops/category/blueprints/" class="bp-icon bp-icon-archive" data-info="Blueprints archive"><span>Go to the archive</span></a>
+            </nav>
+        </header>   
+        <div id="tabs" class="tabs">
+            <nav>
+                <ul>
+                    <li><a href="#section-1" class="icon-shop"><span>收入</span></a></li>
+                    <li><a href="#section-2" class="icon-cup"><span>支出</span></a></li>
+                    <li><a href="#section-3" class="icon-food"><span>剩余</span></a></li>
+                    <li><a href="#section-4" class="icon-lab"><span>图表</span></a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <section id="section-1">
+                    <div class="mediabox">
+                        <p id="pInput">固定收入</p>
+                        <div id="incomeFormID">
+                            <div>
+                                <input type="text" placeholder="固定收入1" >
+                                :
+                                <input type="Number" name="incomeInput">
+                                <input type="date">
+                                <button name="deleteBtn">删除</button>
+                                <br/>
+                            </div>
+
+                            <div>
+                                <input type="text" placeholder="固定收入2" >
+                                :
+                                <input type="Number" name="incomeInput">
+                                <input type="date">
+                                <button name="deleteBtn">删除</button>
+                                <br/>
+                            </div>
+
+                            <div>
+                                <input type="text" placeholder="固定收入3" >
+                                :
+                                <input type="Number" name="incomeInput">
+                                <input type="date">
+                                <button name="deleteBtn">删除</button>
+                                <br/>
+                            </div>
+                        </div> 
+                        <button id="inputAddBtn">添加收入</button>
+                        <h2>Income In Total: <nobr id="inputIntotalID"> 0 </nobr></h2>
+                    </div>
+                </section>
+                <section id="section-2">
+                    <div class="mediabox">
+                        <p id="pOutput">固定支出</p>
+                        <div id="payFormID">
+                            <div>
+                                <input type="text" placeholder="固定支出1" >
+                                :
+                                <input type="Number" name="payInput">
+                                <input type="date">
+                                <button name="deleteBtn">删除</button>
+                                <br/>
+                            </div>
+
+                            <div>
+                                <input type="text" placeholder="固定支出2" >
+                                :
+                                <input type="Number" name="payInput">
+                                <input type="date">
+                                <button name="deleteBtn">删除</button>
+                                <br/>
+                            </div>
+
+                            <div>
+                                <input type="text" placeholder="固定支出3" >
+                                :
+                                <input type="Number" name="payInput">
+                                <input type="date">
+                                <button name="deleteBtn">删除</button>
+                                <br/>
+                            </div>
+                        </div> 
+                        <button id="payAddBtn">添加支出</button>
+                        <h2>Pay In Total: <nobr id="payIntotalID"> 0 </nobr></h2>
+                    </div>
+                </section>
+                <section id="section-3">
+                    <h2>Left In Total: <nobr id="leftIntotalID"> 0 </nobr></h2> 
+                </section>
+                <section id="section-4">
+                    <div id="eCharsID" style="width: 800px;height:400px;">
+                    </div>
+                </section>
+                <section id="section-5">
+                </section>
+            </div><!-- /content -->
+        </div><!-- /tabs -->
+        <p class="info">Food Shapes/Icons by <a href="http://psdblast.com/50-food-icon-set-psd">PsdBlast</a></p>
+    </div>
+    <script>
+    new CBPFWTabs( document.getElementById( 'tabs' ) );
+    </script>
+</body>
+</html>
