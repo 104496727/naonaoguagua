@@ -305,6 +305,7 @@ var updateEChar = function(){
     updateEChar();
   }
 
+
   // 收入数值发生改变事件
   $("#incomeFormID").delegate("input[name='incomeInput']", "input propertychange", incomeSumFunction);
 
@@ -312,8 +313,46 @@ var updateEChar = function(){
   $("#payFormID").delegate("input[name='payInput']", "input propertychange", paySumFunction);  
 
   // 收入数值发生改变事件
-  $("#incomeFormID").delegate("input[type='date']", "input propertychange", incomeSumFunction);
+  $("#incomeFormID").delegate("input[type='date']", "input propertychange ", incomeSumFunction);
 
   // 支出数值发生改变事件
   $("#payFormID").delegate("input[type='date']", "input propertychange", paySumFunction);
+
+  $.ajax( {  
+        url : 'http://101.200.157.44:3000/incomes/naonao',  
+        type : 'GET', 
+        dataType:'JSON', 
+         success: function(data){ 
+                console.log(data);
+                 $.each(data, function(index, val) {
+                    var desc = val['desc'];
+                    var income = val['income'];
+                    var date = val['date'];
+                    $("input[name='incomeDesc'][id="+index+"]").val(desc);
+                    $("input[name='incomeInput'][id="+index+"]").val(income);
+                    $("input[name='incomeDate'][id="+index+"]").val(date.substring(0,10));
+                  });
+                  incomeSumFunction();
+                  paySumFunction();
+            } 
+    });
+
+    $.ajax( {  
+        url : 'http://101.200.157.44:3000/pays/naonao',  
+        type : 'GET', 
+        dataType:'JSON', 
+         success: function(data){ 
+                console.log(data);
+                 $.each(data, function(index, val) {
+                    var desc = val['desc'];
+                    var pay = val['pay'];
+                    var date = val['date'];
+                    $("input[name='payDesc'][id="+index+"]").val(desc);
+                    $("input[name='payInput'][id="+index+"]").val(pay);
+                    $("input[name='payDate'][id="+index+"]").val(date.substring(0,10));
+                  });
+                  incomeSumFunction();
+                  paySumFunction();
+            } 
+    });
 });
