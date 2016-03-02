@@ -1,0 +1,93 @@
+we're connected!
+in here 2 naonao
+[0mGET /incomes/naonao [32m200 [0m17.233 ms - 530[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m3.879 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m3.107 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m2.489 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m2.795 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m4.525 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m3.818 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m2.324 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [32m200 [0m24.719 ms - 502[0m
+in here 2 naonao
+[0mGET /incomes/naonao [32m200 [0m1.582 ms - 2[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.809 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.745 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m2.164 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.340 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m2.075 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.399 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.196 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.511 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.818 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.202 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.366 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m2.879 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.312 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.139 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.185 ms - -[0m
+[0mPOST /incoms [33m404 [0m34.045 ms - 1451[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.456 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m2.250 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.549 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m1.206 ms - -[0m
+{ user: 'naonao',
+  income: '321874',
+  desc: '工资',
+  date: '2016-03-05' }
+save status:  success
+[0mPOST /incomes [32m200 [0m19.301 ms - 124[0m
+{ user: 'naonao',
+  income: '321874',
+  desc: '工资',
+  date: '2016-03-05' }
+save status:  success
+[0mPOST /incomes [32m200 [0m4.408 ms - 124[0m
+in here 2 naonao
+[0mGET /incomes/naonao [32m200 [0m2.425 ms - 627[0m
+in here 2 naonao
+[0mGET /incomes/naonao [32m200 [0m3.836 ms - 627[0m
+in here 2 naonao
+[0mGET /incomes/naonao [32m200 [0m3.466 ms - 627[0m
+in here 2 naonao
+[0mGET /incomes/naonao [32m200 [0m3.673 ms - 627[0m
+in here 2 naonao
+[0mGET /incomes/naonao [36m304 [0m2.854 ms - -[0m
+in here 2 naonao
+[0mGET /incomes/naonao [32m200 [0m3.292 ms - 627[0m
+in here 2 naonao
+[0mGET /incomes/naonao [32m200 [0m4.169 ms - 627[0m
+in here 2 naonao
+[0mGET /incomes/naonao [32m200 [0m2.279 ms - 627[0m
+in here 2 naonao
+[0mGET /incomes/naonao [32m200 [0m2.219 ms - 627[0m
+in here 2 naonao
+[0mGET /incomes/naonao [32m200 [0m2.607 ms - 627[0m
+[0mGET / [33m404 [0m2.107 ms - 1451[0m
